@@ -111,7 +111,7 @@ You can also generate the HTML report manually using the following commands:
 
 **Important Note:** One of the disadvantages of this method is that the HTML file will always be created in the directory where this command is executed. For example, if you execute the command in the root directory, the HTML report will be created in the root directory instead of the `Report` folder. To avoid this, the `pytest_configure` method in the `conftest.py` file ensures that the HTML report is always created in the `Report` folder, regardless of where the command is executed. Additionally, this method eliminates the need to use the `--html={report_file_name} --self-contained-html` option, simplifying the command.
 
-## Observations During Testing
+## Observations During Manual Testing
 
 The SauceDemo application was tested with various user profiles. Below are the key observations for each username:
 
