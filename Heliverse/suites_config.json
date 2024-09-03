@@ -1,0 +1,6 @@
+{
+    "suites_to_run": [
+        "tests/test_login.py",
+        "tests/test_sorting.py"
+    ]
+}
