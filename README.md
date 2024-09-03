@@ -126,6 +126,7 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Product Details on Main Page**: Correct product is displayed.
 - **Navbar Functionality**: Working correctly.
 - **Checkout Process**: All fields work correctly.
+- **Logout**: Successful
 
 ### Username: `locked_out_user`
 
@@ -138,6 +139,7 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Product Details on Main Page**: Not applicable
 - **Navbar Functionality**: Not applicable
 - **Checkout Process**: Not applicable
+- **Logout**: Successful
 
 ### Username: `problem_user`
 
@@ -152,6 +154,7 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Checkout Button**: Issues with field behavior (e.g., the last name field overwrites the first name field).
 - **Continue Button**: Not working due to field validation issues.
 - **Finish Button**: Not applicable as the continue button fails.
+- **Logout**: Successful
 
 ### Username: `performance_glitch_user`
 
@@ -164,6 +167,7 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Product Details on Main Page**: Correct product is displayed.
 - **Navbar Functionality**: Working correctly.
 - **Checkout Process**: All fields work correctly.
+- **Logout**: Successful
 
 ### Username: `error_user`
 
@@ -178,6 +182,7 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Checkout Button**: Last name field remains empty (a bug).
 - **Continue Button**: Working despite the last name field being empty (another bug).
 - **Finish Button**: Not clickable due to the last name field issue.
+- **Logout**: Successful
 
 ### Username: `visual_user`
 
@@ -190,5 +195,6 @@ The SauceDemo application was tested with various user profiles. Below are the k
 - **Product Details on Main Page**: Correct product is displayed with original pricing.
 - **Navbar Functionality**: Prices on the main page change with every click.
 - **Checkout Process**: All fields work correctly.
+- **Logout**: Successful
 
 ---
